@@ -7,7 +7,7 @@ variable "gcp_region" {
 # define GCP project name
 variable "gcp_project" {
   type        = string
-  description = "sandbox-352220"
+  description = "sandbox-in-org"
 }
 # GCP authentication file
 #variable "gcp_auth_file" {
