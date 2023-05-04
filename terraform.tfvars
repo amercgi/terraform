@@ -1,7 +1,7 @@
 # GCP Settings
-gcp_project = "sandbox-352220"
+gcp_project = "sandbox-in-org"
 gcp_region  = "northamerica-northeast1"
-#gcp_auth_file = "../auth/garden-green-456813-8fa36bbabd8c.json"
+#gcp_auth_file = "../auth/sandbox-in-org-4a40401da241.json"
 # Bucket
 bucket-name-tfstate = "gwcm-tfstate-bucket-poc"
 bucket-name-tfout   = "gwcm-tfoutput-bucket-poc"
