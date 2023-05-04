@@ -3,6 +3,10 @@ agent ('any')
 tools {
   terraform 'terraform'
 }
+  environment {
+        CLOUDSDK_CORE_PROJECT='sandbox-in-org' 
+        
+  }
  stages {
    stage ('Checkout Repo') {
      steps {
