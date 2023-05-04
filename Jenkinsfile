@@ -7,7 +7,7 @@ tools {
    stage ('Checkout Repo') {
      steps {
        cleanWs()
-       sh  'git clone git clone https://github.com/amercgi/terraform.git'
+       sh  'git clone https://github.com/amercgi/terraform.git'
       }
       }
 
