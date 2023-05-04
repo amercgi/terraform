@@ -3,8 +3,7 @@ agent ('any')
 tools {
   terraform 'terraform'
 }
-options { ansiColor('xterm') } 
- stages { 
+stages { 
    stage ('Checkout Repo') { 
      steps { 
        cleanWs()
