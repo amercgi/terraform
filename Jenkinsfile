@@ -8,7 +8,7 @@ options { ansiColor('xterm') }
    stage ('Checkout Repo') { 
      steps { 
        cleanWs()
-       sh  'git clone https://github.com/amercgi/terraform-poc.git'
+       sh  'git clone https://github.com/amercgi/terraform.git'
       }
       } 
 
