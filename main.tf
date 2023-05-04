@@ -38,7 +38,7 @@ resource "google_compute_subnetwork" "gwcm-custom-subnet1" {
 # Upload files tfplan.out to GCS Bucket gwcm-tfoutput-bucket-poc . 
 resource "google_storage_bucket_object" "default" {
   name   = "tfplan.out"
-  source = "jenkins-integration-test/tfplan.out"
+  source = "terraform/tfplan.out"
   content      = "Data as string to be uploaded"
   content_type = "text/plain"
   bucket = "gwcm-tfoutput-bucket-poc"
